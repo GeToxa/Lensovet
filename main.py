@@ -19,13 +19,9 @@ for i in spt:
 print(list_of_data)
 list_of_data = list_of_data[1:]
 
-
-
-
-
 for i in list_of_data:
     sp_i = i.split()
-    print(sp_i)
+    print('pep', sp_i)
     if Marka == 0:
         # Первый театр + лен совета смол
         ryad = sp_i[4]
