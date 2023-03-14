@@ -1,5 +1,7 @@
 import pandas as pd
-from Text import text, Marka
+from Text import text, Marka, name_of_spec
+
+
 
 spt = text.split('title')
 list_of_data = []
@@ -94,7 +96,7 @@ nndf = pd.DataFrame(uniq_sl_p)
 
 what_to_write = {'Общая х-к': df, 'Кол-венная х-к' : ndf, 'Все в процентах' : nndf}
 
-writer = pd.ExcelWriter('Дядя Ваня 21.03.xlsx', engine='xlsxwriter')
+writer = pd.ExcelWriter(f'{name_of_spec}', engine='xlsxwriter')
 
 for i in what_to_write:
     what_to_write[i].to_excel(writer, sheet_name=i)

@@ -1,4 +1,6 @@
 Marka = 1
+
+name_of_spec = 'try 28 22'
 text = '''<div class="bileter_afisha_event_hallmap tabs_box visible" style="height: 860px; width: 536px; background-image: url(&quot;//lensov.apit.bileter.ru/images/hallmap/5621.png&quot;); top: -148px; transform: matrix(0.655814, 0, 0, 0.655814, 107.797, 0); transform-origin: 50% 50%; cursor: move; transition: none 0s ease 0s;">
 
 
